@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="501"
-  DTS:VersionGUID="{B9101532-FD92-4566-BAC7-AA464D97C665}">
+  DTS:VersionBuild="508"
+  DTS:VersionGUID="{9979A967-9F6A-4071-BD20-3A5278552FCB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.30;User ID=Saico_DW;Initial Catalog=UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="hmKor4N1n8Y="
-            IV="Ek0qC8c25wd5YDw+Uvmt6A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="rslaRNdvPak="
+            IV="KIb/5mOUv4P4xFgAc3Lvzw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>Ek0qC8c25wd5YDw+Uvmt6Kl/lsS0Ivmnn8ckbXW+YSvsNyNMjyhZ6fE2/4IFLuLMvn4zXpQd4wv0ob1+9rqPhxJkJta976tbj0oEC72aos3obzbO0tHSEzAdsDItbV8z8ivysTno2wP4ROX4d7/WHdwP7k8t0zPbbq3NMQEVYbWkarGv0lig3LAKi+LJP6a9</CipherValue>
+              <CipherValue>KIb/5mOUv4P4xFgAc3LvzwmW/W/1FrAkHF0yTjwhHVcdtWHN2FRCCqvb5voZkObPYLjYsAVk5G6Kqf0gKYtU+TJbAGRFdZn3KS8OndS+aSsC0GRahTuyFD/Hy6WUp/ID58njBwBLCNln7Y3Kyi7Edc4aJU3wVFlXuDKhMlnZdQvrOyRKZBmeNLtHjsAluIrW</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="DATA SOURCE=HRPROD;USER ID=UCU_GP;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="gVLNSvqOxDw="
-            IV="UHp/7SDgNYELJDknIoqTMA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="dKtMb8U7t1A="
+            IV="GtcCN6VhcO0n0f/YZu7dmg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>UHp/7SDgNYELJDknIoqTMLqA0XKaT9/KEqTC/HHvwlL2dM6hOtk9qeMePhi399XFDjzAip5yud3xeTcOUQrS8K+RVhoEl5NxYHM4ZjMgJbc3VjjPZZxf5xatfQ1a4dFcikx2MrDNb2jbl93wn/Pt3TAim8Nqfr+3dsqRym+ICCdid65cie7a7cIWfwFf4+HK</CipherValue>
+              <CipherValue>GtcCN6VhcO0n0f/YZu7dmi3+yqwKCpjVHCC2GXyacz/ysx9WoTyn7qf9pTHIK7sdwWpA73IUofsxEcsXyreFsfdgejjvAsLngkpn1craE22W8lflaKJgEB3WgIMFDBeL7YhOmON/fSvJMo5wDr38jQobH5hSbIwUqTkvpQvdbbTOpjvrBXPqOxT+S4alQQfQ</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -109,12 +109,12 @@
           DTS:ConnectionString="Data Source=Saico;User ID=Saico_DW;Provider=SSISOLEDB.3;Location=10.245.0.30;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="roMBS/tYqrU="
-            IV="KJUNfs97Trs7b+1rd/rADw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="ed8AF9wG8sQ="
+            IV="5zz4jMUSH48bZXByhPLJKA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>KJUNfs97Trs7b+1rd/rADwZr0kM6onDvmaVIXWQdgNRzB0xvta9x0DLQwXSeyovRf9cO5bSXw5RRfsPHzV21FV0bMXlEK5KwKSSpTC/Bf45nEdwKbTJdBQS186vIeuvq4c1TXmOjHMu15fB2c9x/kdIisyjkcba0qGHw1tU2Mq2wDmT9oEhf+4kEUjqKAFgD</CipherValue>
+              <CipherValue>5zz4jMUSH48bZXByhPLJKHBlSmmSGidHWTI/owEYO3nXKQjVYJ9ZDSUKOc1D2RUlcsrfBNKWsqN5LVPECAPQCb4jmsinGno0F0XcnEZT+KlO8KtkN2ODY7BecCBLfR2nXSThl89PiDEB19wy1AcXo6ivPmKtg82Czk6Izhi4W1z6C00t7ABK7CnZ+i6X82IK</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -127,6 +127,7 @@
       DTS:refId="Package\Ajustes DW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
+      DTS:Disabled="True"
       DTS:DTSID="{CB8E5DE1-C01E-439A-8F7C-FD33BFC21819}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -144,6 +145,7 @@
       DTS:refId="Package\borrar FT DS"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
+      DTS:Disabled="True"
       DTS:DTSID="{D43012CC-7393-4753-B92F-85392683386F}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -154,13 +156,14 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FADBA1DA-E4FC-45ED-AE47-9EBF3DC3117B}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE [dbo].[FT_DESIGNACION_DS];&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [dbo].[FT_DESIGNACION_DS];&#xA;TRUNCATE TABLE [dbo].DT_DOCENTES_SIN_DESIG;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Designaciones en MAGIX"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
+      DTS:Disabled="True"
       DTS:DTSID="{29A8B529-1D56-49C6-85C2-CF6777ABB789}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -699,6 +702,18 @@
                       refId="Package\Designaciones en MAGIX\FT_DESIGNACION_DS.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       dataType="dbTimeStamp"
                       name="FECHA_FIN_DES" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones en MAGIX\FT_DESIGNACION_DS.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="clave_ciclo_clase" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones en MAGIX\FT_DESIGNACION_DS.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="descripcion_ciclo_clase" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1341,6 +1356,7 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
       DTS:refId="Package\Designaciones en SAICO PAD"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
+      DTS:Disabled="True"
       DTS:DTSID="{bd3b2d99-c888-4865-b52e-c57a24f5f363}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2281,6 +2297,7 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
       DTS:refId="Package\Designaciones Saico AULA"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
+      DTS:Disabled="True"
       DTS:DTSID="{dde031f0-31bb-4c3f-8f26-aa550b4299fb}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3278,6 +3295,7 @@ where Año*100+Mes&gt;=202110</property>
       DTS:refId="Package\Designaciones Saico AULA NO PS"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
+      DTS:Disabled="True"
       DTS:DTSID="{85efe2ab-02e5-4f67-8b3d-fd22fffcbe13}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4394,6 +4412,7 @@ where Año*100+Mes&gt;=202110</property>
       DTS:refId="Package\Designaciones Saico Docente PAD"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
+      DTS:Disabled="True"
       DTS:DTSID="{0cd87924-1cb3-4b13-aef2-e0454aa8ea64}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5378,6 +5397,7 @@ where Año*100+Mes&gt;=202110</property>
       DTS:refId="Package\Designaciones Saico Gestion"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
+      DTS:Disabled="True"
       DTS:DTSID="{06DED695-79EB-4324-9567-D6038C4C6B7C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6356,6 +6376,650 @@ UNION
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Docentes sin designaciones"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{E64AA447-BB13-4C12-88B5-94406A31D695}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Docentes sin designaciones"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Docentes sin designaciones\Docentes sin designaciones"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="Docentes sin designaciones"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT c.EMPL_ID
+	,NRO_DOCUMENTO
+	,a.ciclo_id
+	,a.CLASE_ID
+	,a.FECHA_INICIO
+	,a.FECHA_FIN
+	,a.CAMPUS_ID
+	,a.CLAVE_CICLO_CLASE
+	,concat(a.CLAVE_CICLO_CLASE,NRO_DOCUMENTO)  CLAVE_CICLO_CLASE_DOCENTE
+	,concat(TIPO_DOCUMENTO,NRO_DOCUMENTO) DOCUMENTO_ID
+	,coalesce(coalesce((
+				SELECT TOP 1 TIPO_HORAS
+				FROM DW_DESIGNACIONES_DOCENTES desg
+				CROSS APPLY (
+					SELECT MIN(d) AS MinValue
+					FROM (
+						VALUES (
+							CASE 
+								WHEN YEAR(FECHA_FIN) &lt;= 1900
+									THEN CAST('2021-01-10' AS DATETIME)
+								ELSE FECHA_FIN
+								END
+							)
+							,(
+							CASE 
+								WHEN YEAR(FECHA_EGRESO) &lt;= 1900
+									THEN CAST('2021-01-10' AS DATETIME)
+								ELSE FECHA_EGRESO
+								END
+							)
+							,(
+							CASE 
+								WHEN YEAR(FECHA_CANCELACION) &lt;= 1900
+									THEN CAST('2021-01-10' AS DATETIME)
+								ELSE FECHA_CANCELACION
+								END
+							)
+						) AS a(d)
+					) FechaMin
+				WHERE desg.NRO_DOCUMENTO = F.NRO_DOCUMENTO
+					AND a.FECHA_INICIO &gt;= desg.FECHA_INICIO
+					AND a.FECHA_INICIO &lt;= MinValue
+					AND a.FECHA_FIN &lt;= MinValue
+					AND a.FECHA_FIN &gt;= desg.FECHA_INICIO
+					AND TIPO_HORAS IN (
+						'DOCENCIA AULAS'
+						,'DOCENCIA PAD'
+						)
+				), (
+				SELECT TOP 1 'DOCENCIA PAD'
+				  FROM [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] ods
+				  inner  join [ODS_UCU].[dbo].[ODS_MAPEO_FUNCIONARIOS] map on map.[NRO_FUN_SAICO]=[SAICO_ID]  
+				 -- left join [DW_UCU].[dbo].[DT_Docente] dt on dt.EMPLID=map.EMPLID
+				   inner join [DW_UCU].[dbo].[DT_Funcionario]  on funid = [SAICO_ID]  
+				  WHERE  a.FECHA_INICIO&gt;=ods.FEC_INICIO_DESG and (ods.FEC_FIN_DESG='1753-01-01 00:00:00.000' or a.FECHA_FIN&lt;=ods.FEC_FIN_DESG)
+				  and map.EMPLID=c.EMPL_ID
+				)), 'DOCENCIA AULAS') TipoHora
+
+
+FROM DT_Clase_Inst a
+INNER JOIN DT_Clase_Inst_Docente c ON c.CLAVE_CICLO_CLASE = a.CLAVE_CICLO_CLASE
+	AND c.ROL_ID IN (
+		'PI'
+		,'TA'
+		)
+INNER JOIN DT_FUNCIONARIOS_TOTAL F ON F.EMPLID = c.EMPL_ID
+WHERE NOT EXISTS (
+		SELECT *
+		FROM FT_DESIGNACION_DS FT
+		WHERE FT.DOCUMENTO_ID = CONCAT (
+				F.TIPO_DOCUMENTO
+				,F.NRO_DOCUMENTO
+				)
+			AND FT.CICLO_ID = a.CICLO_ID
+			AND FT.CLASE_ID = cast(a.CLASE_ID AS NVARCHAR)
+		)</property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Docentes sin designaciones\Docentes sin designaciones.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLASE_ID]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[CLASE_ID]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLASE_ID]"
+                      name="CLASE_ID"
+                      precision="38"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[FECHA_INICIO]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[FECHA_INICIO]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[FECHA_INICIO]"
+                      name="FECHA_INICIO"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[DOCUMENTO_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[DOCUMENTO_ID]"
+                      length="26"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[DOCUMENTO_ID]"
+                      name="DOCUMENTO_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[EMPL_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[EMPL_ID]"
+                      length="11"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[EMPL_ID]"
+                      name="EMPL_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[NRO_DOCUMENTO]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[NRO_DOCUMENTO]"
+                      length="20"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[NRO_DOCUMENTO]"
+                      name="NRO_DOCUMENTO"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[ciclo_id]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[ciclo_id]"
+                      length="4"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[ciclo_id]"
+                      name="ciclo_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[FECHA_FIN]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[FECHA_FIN]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[FECHA_FIN]"
+                      name="FECHA_FIN"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CAMPUS_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[CAMPUS_ID]"
+                      length="5"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CAMPUS_ID]"
+                      name="CAMPUS_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[TipoHora]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[TipoHora]"
+                      length="14"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[TipoHora]"
+                      name="TipoHora"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[CLAVE_CICLO_CLASE]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]"
+                      name="CLAVE_CICLO_CLASE"
+                      precision="10"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      length="61"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      name="CLAVE_CICLO_CLASE_DOCENTE"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[CLASE_ID]"
+                      dataType="numeric"
+                      name="CLASE_ID"
+                      precision="38" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[FECHA_INICIO]"
+                      dataType="dbTimeStamp"
+                      name="FECHA_INICIO" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[DOCUMENTO_ID]"
+                      dataType="wstr"
+                      length="26"
+                      name="DOCUMENTO_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[EMPL_ID]"
+                      dataType="wstr"
+                      length="11"
+                      name="EMPL_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[NRO_DOCUMENTO]"
+                      dataType="wstr"
+                      length="20"
+                      name="NRO_DOCUMENTO" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[ciclo_id]"
+                      dataType="wstr"
+                      length="4"
+                      name="ciclo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[FECHA_FIN]"
+                      dataType="dbTimeStamp"
+                      name="FECHA_FIN" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[CAMPUS_ID]"
+                      dataType="wstr"
+                      length="5"
+                      name="CAMPUS_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[TipoHora]"
+                      dataType="wstr"
+                      length="14"
+                      name="TipoHora" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[CLAVE_CICLO_CLASE]"
+                      dataType="numeric"
+                      name="CLAVE_CICLO_CLASE"
+                      precision="10" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].ExternalColumns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      dataType="wstr"
+                      length="61"
+                      name="CLAVE_CICLO_CLASE_DOCENTE" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLASE_ID]"
+                      dataType="numeric"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLASE_ID]"
+                      name="CLASE_ID"
+                      precision="38" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[FECHA_INICIO]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[FECHA_INICIO]"
+                      name="FECHA_INICIO" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[DOCUMENTO_ID]"
+                      dataType="wstr"
+                      length="26"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[DOCUMENTO_ID]"
+                      name="DOCUMENTO_ID" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[EMPL_ID]"
+                      dataType="wstr"
+                      length="11"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[EMPL_ID]"
+                      name="EMPL_ID" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[NRO_DOCUMENTO]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[NRO_DOCUMENTO]"
+                      name="NRO_DOCUMENTO" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]"
+                      dataType="numeric"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]"
+                      name="CLAVE_CICLO_CLASE"
+                      precision="10" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      dataType="wstr"
+                      length="61"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      name="CLAVE_CICLO_CLASE_DOCENTE" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[ciclo_id]"
+                      dataType="wstr"
+                      length="4"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[ciclo_id]"
+                      name="ciclo_id" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[FECHA_FIN]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[FECHA_FIN]"
+                      name="FECHA_FIN" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CAMPUS_ID]"
+                      dataType="wstr"
+                      length="5"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CAMPUS_ID]"
+                      name="CAMPUS_ID" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[TipoHora]"
+                      dataType="wstr"
+                      length="14"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[TipoHora]"
+                      name="TipoHora" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="DT_DOCENTES_SIN_DESIG"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[DT_DOCENTES_SIN_DESIG]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[CLASE_ID]"
+                      cachedDataType="numeric"
+                      cachedName="CLASE_ID"
+                      cachedPrecision="38"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[CLASE_ID]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLASE_ID]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[FECHA_INICIO]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="FECHA_INICIO"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_INICIO]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[FECHA_INICIO]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[DOCUMENTO_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="26"
+                      cachedName="DOCUMENTO_ID"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[DOCUMENTO_ID]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[DOCUMENTO_ID]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[EMPL_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="11"
+                      cachedName="EMPL_ID"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[EMPL_ID]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[EMPL_ID]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[NRO_DOCUMENTO]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="NRO_DOCUMENTO"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[NRO_DOCUMENTO]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[NRO_DOCUMENTO]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[ciclo_id]"
+                      cachedDataType="wstr"
+                      cachedLength="4"
+                      cachedName="ciclo_id"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[ciclo_id]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[ciclo_id]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[FECHA_FIN]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="FECHA_FIN"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[FECHA_FIN]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[CAMPUS_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="CAMPUS_ID"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[CAMPUS_ID]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CAMPUS_ID]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[TipoHora]"
+                      cachedDataType="wstr"
+                      cachedLength="14"
+                      cachedName="TipoHora"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[TipoHora]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[TipoHora]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[CLAVE_CICLO_CLASE]"
+                      cachedDataType="numeric"
+                      cachedName="CLAVE_CICLO_CLASE"
+                      cachedPrecision="10"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[CLAVE_CICLO_CLASE]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]" />
+                    <inputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      cachedDataType="wstr"
+                      cachedLength="61"
+                      cachedName="CLAVE_CICLO_CLASE_DOCENTE"
+                      externalMetadataColumnId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[CLASE_ID]"
+                      dataType="numeric"
+                      name="CLASE_ID"
+                      precision="38" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_INICIO]"
+                      dataType="dbTimeStamp"
+                      name="FECHA_INICIO" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[DOCUMENTO_ID]"
+                      dataType="wstr"
+                      length="26"
+                      name="DOCUMENTO_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[EMPL_ID]"
+                      dataType="wstr"
+                      length="11"
+                      name="EMPL_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[NRO_DOCUMENTO]"
+                      dataType="wstr"
+                      length="20"
+                      name="NRO_DOCUMENTO" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[ciclo_id]"
+                      dataType="wstr"
+                      length="4"
+                      name="ciclo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN]"
+                      dataType="dbTimeStamp"
+                      name="FECHA_FIN" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[CAMPUS_ID]"
+                      dataType="wstr"
+                      length="5"
+                      name="CAMPUS_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[TipoHora]"
+                      dataType="wstr"
+                      length="14"
+                      name="TipoHora" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[CLAVE_CICLO_CLASE]"
+                      dataType="numeric"
+                      name="CLAVE_CICLO_CLASE"
+                      precision="10" />
+                    <externalMetadataColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB].ExternalColumns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      dataType="wstr"
+                      length="61"
+                      name="CLAVE_CICLO_CLASE_DOCENTE" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Docentes sin designaciones.Paths[Salida de origen de OLE DB]"
+              endId="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de origen de OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -6414,6 +7078,14 @@ UNION
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción 5"
       DTS:To="Package\Ajustes DW" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 6]"
+      DTS:CreationName=""
+      DTS:DTSID="{C4F58875-425E-4838-8561-55C262A43581}"
+      DTS:From="Package\Ajustes DW"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 6"
+      DTS:To="Package\Docentes sin designaciones" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
@@ -6426,11 +7098,11 @@ UNION
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="132.8,41.6"
+          Size="132.8,42.4"
           Id="Package\Ajustes DW"
-          TopLeft="287.081812980147,209.200005817668" />
+          TopLeft="274.224669904048,242.847065113085" />
         <NodeLayout
           Size="139.2,41.6"
           Id="Package\borrar FT DS"
@@ -6442,7 +7114,7 @@ UNION
         <NodeLayout
           Size="216.8,41.6"
           Id="Package\Designaciones en SAICO PAD"
-          TopLeft="282.27961900327,53.7978589461438" />
+          TopLeft="282.99390472972,53.7978589461438" />
         <NodeLayout
           Size="201.6,41.6"
           Id="Package\Designaciones Saico AULA"
@@ -6465,14 +7137,14 @@ UNION
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="34.3186898586071,0"
+              EndConnector="35.0329755850566,0"
               Start="0,0"
-              End="26.8186898586071,0">
+              End="27.5329755850566,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="26.8186898586071,0" />
+                    End="27.5329755850566,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6527,18 +7199,18 @@ UNION
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 2]"
-          TopLeft="499.07961900327,70.6080210652353">
+          TopLeft="499.79390472972,70.6080210652353">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="45.2109968309246,0"
+              EndConnector="44.4967111044751,0"
               Start="0,0"
-              End="37.7109968309246,0">
+              End="36.9967111044751,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="37.7109968309246,0" />
+                    End="36.9967111044751,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6593,30 +7265,68 @@ UNION
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 5]"
-          TopLeft="463.290608963285,168.899458507265">
+          TopLeft="582.490608963285,189.699458507265">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-43.4087959831382,61.1005473104028"
+              EndConnector="-241.865939059237,53.1476066058197"
               Start="0,0"
-              End="-35.9087959831382,61.1005473104028">
+              End="-241.865939059237,45.6476066058197">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-17.7043979915691,0" />
+                    End="0,22.5738033029098" />
                   <mssgle:CubicBezierSegment
-                    Point1="-17.7043979915691,0"
-                    Point2="-21.7043979915691,0"
-                    Point3="-21.7043979915691,4" />
+                    Point1="0,22.5738033029098"
+                    Point2="0,26.5738033029098"
+                    Point3="-4,26.5738033029098" />
                   <mssgle:LineSegment
-                    End="-21.7043979915691,57.1005473104028" />
+                    End="-237.865939059237,26.5738033029098" />
                   <mssgle:CubicBezierSegment
-                    Point1="-21.7043979915691,57.1005473104028"
-                    Point2="-21.7043979915691,61.1005473104028"
-                    Point3="-25.7043979915691,61.1005473104028" />
+                    Point1="-237.865939059237,26.5738033029098"
+                    Point2="-241.865939059237,26.5738033029098"
+                    Point3="-241.865939059237,30.5738033029098" />
                   <mssgle:LineSegment
-                    End="-35.9087959831382,61.1005473104028" />
+                    End="-241.865939059237,45.6476066058197" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="207.2,41.6"
+          Id="Package\Docentes sin designaciones"
+          TopLeft="467.142865098253,268.411768470256" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 6]"
+          TopLeft="407.024669904048,264.047065113085">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="60.1181951942045,25.1647033571713"
+              Start="0,0"
+              End="52.6181951942045,25.1647033571713">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="26.0590975971022,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="26.0590975971022,0"
+                    Point2="30.0590975971022,0"
+                    Point3="30.0590975971022,4" />
+                  <mssgle:LineSegment
+                    End="30.0590975971022,21.1647033571713" />
+                  <mssgle:CubicBezierSegment
+                    Point1="30.0590975971022,21.1647033571713"
+                    Point2="30.0590975971022,25.1647033571713"
+                    Point3="34.0590975971022,25.1647033571713" />
+                  <mssgle:LineSegment
+                    End="52.6181951942045,25.1647033571713" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6632,17 +7342,17 @@ UNION
     design-time-name="Package\Designaciones en MAGIX">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="137,42"
+          Size="136.8,41.6"
           Id="Package\Designaciones en MAGIX\PAD Gestion"
           TopLeft="28.6153855182717,40.4242437761572" />
         <NodeLayout
-          Size="184,42"
+          Size="184,41.6"
           Id="Package\Designaciones en MAGIX\FT_DESIGNACION_DS"
-          TopLeft="499.538479751384,124.909095349063" />
+          TopLeft="500.538479751384,125.909095349063" />
         <NodeLayout
-          Size="174,42"
+          Size="174.4,41.6"
           Id="Package\Designaciones en MAGIX\Conversión de datos"
           TopLeft="212.38461759951,94.242427899708" />
         <EdgeLayout
@@ -6676,45 +7386,41 @@ UNION
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Designaciones en MAGIX.Paths[Salida de conversión de datos]"
-          TopLeft="386.38461759951,115.242427899708">
+          TopLeft="386.78461759951,115.042427899708">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="113.153862151874,30.666667449355"
+              EndConnector="113.753862151874,31.666667449355"
               Start="0,0"
-              End="105.653862151874,30.666667449355">
+              End="106.253862151874,31.666667449355">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="52.576931075937,0" />
+                    End="52.876931075937,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="52.576931075937,0"
-                    Point2="56.576931075937,0"
-                    Point3="56.576931075937,4" />
+                    Point1="52.876931075937,0"
+                    Point2="56.876931075937,0"
+                    Point3="56.876931075937,4" />
                   <mssgle:LineSegment
-                    End="56.576931075937,26.666667449355" />
+                    End="56.876931075937,27.666667449355" />
                   <mssgle:CubicBezierSegment
-                    Point1="56.576931075937,26.666667449355"
-                    Point2="56.576931075937,30.666667449355"
-                    Point3="60.576931075937,30.666667449355" />
+                    Point1="56.876931075937,27.666667449355"
+                    Point2="56.876931075937,31.666667449355"
+                    Point3="60.876931075937,31.666667449355" />
                   <mssgle:LineSegment
-                    End="105.653862151874,30.666667449355" />
+                    End="106.253862151874,31.666667449355" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6745,17 +7451,17 @@ UNION
     design-time-name="Package\Designaciones en SAICO PAD">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="210,42"
+          Size="209.6,41.6"
           Id="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS"
           TopLeft="43.7346153987231,39.416667449354" />
         <NodeLayout
-          Size="168,42"
+          Size="168,41.6"
           Id="Package\Designaciones en SAICO PAD\Destino de OLE DB"
           TopLeft="433.000000550197,150.666668858191" />
         <NodeLayout
-          Size="174,42"
+          Size="174.4,41.6"
           Id="Package\Designaciones en SAICO PAD\Conversión de datos"
           TopLeft="82.2038436285842,154.962122122884" />
         <EdgeLayout
@@ -6789,9 +7495,7 @@ UNION
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6813,9 +7517,7 @@ UNION
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7279,6 +7981,77 @@ UNION
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Docentes sin designaciones">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="207.2,41.6"
+          Id="Package\Docentes sin designaciones\Docentes sin designaciones"
+          TopLeft="60.7142857264499,60.7647058930776" />
+        <NodeLayout
+          Size="208.8,41.6"
+          Id="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG"
+          TopLeft="486.428579712401,72.647059842377" />
+        <EdgeLayout
+          Id="Package\Docentes sin designaciones.Paths[Salida de origen de OLE DB]"
+          TopLeft="267.91428572645,81.5647058930776">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="218.514293985951,11.8823539492994"
+              Start="0,0"
+              End="211.014293985951,11.8823539492994">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="105.257146992975,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="105.257146992975,0"
+                    Point2="109.257146992975,0"
+                    Point3="109.257146992975,4" />
+                  <mssgle:LineSegment
+                    End="109.257146992975,7.88235394929936" />
+                  <mssgle:CubicBezierSegment
+                    Point1="109.257146992975,7.88235394929936"
+                    Point2="109.257146992975,11.8823539492994"
+                    Point3="113.257146992975,11.8823539492994" />
+                  <mssgle:LineSegment
+                    End="211.014293985951,11.8823539492994" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Docentes sin designaciones\Docentes sin designaciones">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

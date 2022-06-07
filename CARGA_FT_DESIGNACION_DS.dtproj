@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">PROD-UCUDBS10</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="FIqJTVAq9ak=" SSIS:IV="DaJJLQxCtRvu3JpfsT69zA==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">IXDMZKicqWITshWF7+pJQl4jrNomPO1oa88g4Hi5KZeycB+76ullUY97aP/WrhkiXbvYQ4TFuL6Z8hmPDrrRYH+4NyGJ6GM5TysS6w3Kq1h/CrxYC8+zdLuXstgsyrtCmuSZ/ppVrV0EHlMjxzdo2pwQdjN/7aDGTPV9gQW7Cn32TEDuN7yEgqVl+iPsSHyh</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="KPbdRN5UmdE=" SSIS:IV="7D9qqApV4434+ni/uGgIpg==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">gWGUzuNi4ROY13CFJFwa/Z20s+WtXELevfxySPTfp7gN2CAFcXwaafMZrlJzhxjNnxJ0hkJ10fy4u/iYAsCeXgCWXAU6OUKPNXFYreZX9f67NHg+FUk1i73fa3lt5teDkltUVjbPieP+qbgf87MVc/iPPUoC86IA6hoTdloBjC1tTE6Z8XHDewPAAPFWUb7d</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,14 +42,14 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">498</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">502</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{F146DD58-6F7C-4FA3-ADAD-FD95DA5A522D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{E7711EEC-18BF-4C08-B2E4-57D2FBE44030}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="CM.10.245.0.30.UCU.Saico_DW.ConnectByProxy">
