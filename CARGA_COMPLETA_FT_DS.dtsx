@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="508"
-  DTS:VersionGUID="{9979A967-9F6A-4071-BD20-3A5278552FCB}">
+  DTS:VersionBuild="531"
+  DTS:VersionGUID="{A6533519-E363-45BE-8E64-D4866FBE0B24}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,15 +27,26 @@
           DTS:ConnectionString="Data Source=10.245.0.30;User ID=Saico_DW;Initial Catalog=UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="rslaRNdvPak="
-            IV="KIb/5mOUv4P4xFgAc3Lvzw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="PjCfMbuPw4U="
+            IV="mGxfZT7yHKPBXmC54d5lKQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>KIb/5mOUv4P4xFgAc3LvzwmW/W/1FrAkHF0yTjwhHVcdtWHN2FRCCqvb5voZkObPYLjYsAVk5G6Kqf0gKYtU+TJbAGRFdZn3KS8OndS+aSsC0GRahTuyFD/Hy6WUp/ID58njBwBLCNln7Y3Kyi7Edc4aJU3wVFlXuDKhMlnZdQvrOyRKZBmeNLtHjsAluIrW</CipherValue>
+              <CipherValue>mGxfZT7yHKPBXmC54d5lKbx42OalGl+stqC161LDpudsAYooKzZ3/HPksx28p5mmWiuaoLdVQg34Qh/5W5gB98plC+ASpwIcCeKv6cuuXRC/1nJuUv0Bk7tHSyjHeBGFG47QitvEtjQXcn628y94WUzJEeECtqGlDUzGYdgvAl8bUZEowY5CpAcV2iWYIrSv</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESIGNACIONES.log]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{CD0F3D75-4F21-4EDF-8107-3E08FB9FCAA1}"
+      DTS:ObjectName="DESIGNACIONES.log">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="1"
+          DTS:ConnectionString="DESIGNACIONES.log" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -48,12 +59,12 @@
           DTS:ConnectionString="DATA SOURCE=HRPROD;USER ID=UCU_GP;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="dKtMb8U7t1A="
-            IV="GtcCN6VhcO0n0f/YZu7dmg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="q5B5OK58Wss="
+            IV="2D9MIzOUUoRJ1oKn0mTERw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>GtcCN6VhcO0n0f/YZu7dmi3+yqwKCpjVHCC2GXyacz/ysx9WoTyn7qf9pTHIK7sdwWpA73IUofsxEcsXyreFsfdgejjvAsLngkpn1craE22W8lflaKJgEB3WgIMFDBeL7YhOmON/fSvJMo5wDr38jQobH5hSbIwUqTkvpQvdbbTOpjvrBXPqOxT+S4alQQfQ</CipherValue>
+              <CipherValue>2D9MIzOUUoRJ1oKn0mTER+TTpVHlb0dgqtwJDe2U35CFoP7CwhNIL/XqUDlU0tTnxJDbUrtYBU7sVINw4mOC30cQysStJcAcXvJQJN1A+MNWSgcIQwrEMqETdlwRvHItMFtUnVgb4jciTpQwosiKF9LpWZCRky3hekm0r0jMtiKwJih9eeNWB9PzEF+meR9y</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -109,25 +120,65 @@
           DTS:ConnectionString="Data Source=Saico;User ID=Saico_DW;Provider=SSISOLEDB.3;Location=10.245.0.30;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="ed8AF9wG8sQ="
-            IV="5zz4jMUSH48bZXByhPLJKA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="5p806UWscyM="
+            IV="dyCnOhS3JPOqCdz2OXKBJQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>5zz4jMUSH48bZXByhPLJKHBlSmmSGidHWTI/owEYO3nXKQjVYJ9ZDSUKOc1D2RUlcsrfBNKWsqN5LVPECAPQCb4jmsinGno0F0XcnEZT+KlO8KtkN2ODY7BecCBLfR2nXSThl89PiDEB19wy1AcXo6ivPmKtg82Czk6Izhi4W1z6C00t7ABK7CnZ+i6X82IK</CipherValue>
+              <CipherValue>dyCnOhS3JPOqCdz2OXKBJeYfTvgWxddM+t3gl5LFtuJTZ2WgqjO7XC2mDqlWpeleYAsFdwMpT88mbIzkv64T0opfCk5o92La+347ihaDlcOtDiXZcBeaU6/Gk76RH/y76D1Kflm2/NuYmfBUcSVUKq9z+h3+A7HjMeJGCG+pYTc6JOTjhjHbjeWAqsi7mPMZ</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
+  <DTS:LogProviders>
+    <DTS:LogProvider
+      DTS:ConfigString="DESIGNACIONES.log"
+      DTS:CreationName="Microsoft.LogProviderTextFile"
+      DTS:Description="Escribe entradas del registro sobre eventos en un archivo CSV"
+      DTS:DTSID="{78DDACC7-EA11-4327-B310-FEAC533DFC4F}"
+      DTS:ObjectName="Proveedor de registro SSIS para archivos de texto">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+  </DTS:LogProviders>
   <DTS:Variables />
+  <DTS:LoggingOptions
+    DTS:FilterKind="0"
+    DTS:LoggingMode="1">
+    <DTS:Property
+      DTS:DataType="8"
+      DTS:Name="EventFilter">1,7,OnError</DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnError"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">-1</DTS:Property>
+    </DTS:Property>
+    <DTS:SelectedLogProviders>
+      <DTS:SelectedLogProvider
+        DTS:InstanceID="{78DDACC7-EA11-4327-B310-FEAC533DFC4F}" />
+    </DTS:SelectedLogProviders>
+  </DTS:LoggingOptions>
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\Ajustes DW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
-      DTS:Disabled="True"
       DTS:DTSID="{CB8E5DE1-C01E-439A-8F7C-FD33BFC21819}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -135,17 +186,18 @@
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FADBA1DA-E4FC-45ED-AE47-9EBF3DC3117B}"
-          SQLTask:SqlStatementSource="  &#xA;&#xA; update FT_DESIGNACION_DS set DOCUMENTO_ID='CI60633891' where DOCUMENTO_ID='CD6063389';&#xA;&#xA;update FT_DESIGNACION_DS set DOCUMENTO_ID='CI62477449' where DOCUMENTO_ID='DNI21024519';&#xA;&#xA;update FT_DESIGNACION_DS set DOCUMENTO_ID='CI37259551' where DOCUMENTO_ID='DNI37259550';&#xA; &#xA;update FT_DESIGNACION_DS set DOCUMENTO_ID='CI60532544' where DOCUMENTO_ID='PAS238713';&#xA;&#xA; &#xA;&#xA; update d set d.emplid= ( select top 1 emplid from DT_Docente d2 where d.DOCUMENTO_ID=d2.DOCUMENTO_ID)&#xA; from FT_DESIGNACION_DS d;&#xA;&#xA;  update d set d.emplid= ( select top 1 emplid from ODS_UCU.dbo.ODS_MAPEO_FUNCIONARIOS d2 where d.SAICO_ID=d2.NRO_FUN_SAICO)&#xA; from FT_DESIGNACION_DS d&#xA; where   emplid is null and SAICO_ID is not null;&#xA;&#xA;  update d set d.emplid= ( select top 1 d2.emplid from DT_Docente d2 where cast(replace(replace(replace(d.DOCUMENTO_ID,'CI',''),'DNI',''),'PA','') as bigint)=cast(d2.NRO_DOCUMENTO as bigint)&#xA; or  cast(replace(replace(replace(d.DOCUMENTO_ID,'CI',''),'DNI',''),'PA','') as bigint)/10=cast(d2.NRO_DOCUMENTO as bigint)&#xA;  or  cast(replace(replace(replace(d.DOCUMENTO_ID,'CI',''),'DNI',''),'PA','') as bigint)=cast(d2.NRO_DOCUMENTO as bigint)/10&#xA;  or  cast(replace(replace(replace(d.DOCUMENTO_ID,'CI',''),'DNI',''),'PA','') as bigint)/10=cast(d2.NRO_DOCUMENTO as bigint)/10&#xA;  )&#xA; from FT_DESIGNACION_DS d  where   d.emplid is null;&#xA;&#xA;-- delete from FT_DESIGNACION_DS where TIPO_HORAS='GESTION' and FUENTE_DATOS='SAICO'&#xA;&#xA;  update FT_DESIGNACION_DS set año =case when cast(ciclo_id as int)&gt;0 then cast(ciclo_id as int)/100+2000  end&#xA;  where ciclo_id not like '%CURS%' and ciclo_id not like '%PRUE%' and ciclo_id not like '%PLEN%';&#xA;&#xA; update FT set FT.[UNIDAD_DESTINO_ID]= (select TOP 1 FIN_CC_CLAVE_UNOP from DT_CENTROS_COSTO CC where &#xA;  FIN_CC_CLAVE_UNIF=cast(FT.CC_DESTINO_ID as nvarchar))&#xA; FROM  FT_DESIGNACION_DS FT  where   FT.[UNIDAD_DESTINO_ID] is null;&#xA;&#xA;  update FT set FT.[UNIDAD_ORIGEN_ID]= (select TOP 1 FIN_CC_CLAVE_UNOP from DT_CENTROS_COSTO CC where &#xA;  FIN_CC_CLAVE_UNIF=cast(FT.CC_ORIGEN_ID as nvarchar))&#xA; FROM  FT_DESIGNACION_DS FT  where  [UNIDAD_ORIGEN_ID] is null;&#xA; &#xA;&#xA;  update FT_DESIGNACION_DS set FUENTE_DATOS='SAICO' where FUENTE_DATOS is null  or upper(FUENTE_DATOS) like '%SAICO%';&#xA;&#xA;   delete d from FT_DESIGNACION_DS d where d.FUENTE_DATOS='MAGIX' and exists(select 1 from FT_DESIGNACION_DS d2 where d2.DOCUMENTO_ID=d.DOCUMENTO_ID&#xA; and d2.CICLO_ID=d.CICLO_ID and d2.CLASE_ID=d.CLASE_ID and d2.FUENTE_DATOS='SAICO');&#xA; &#xA; &#xA;&#xA;&#xA;  update F set FECHA_EGRESO=null &#xA;  from FT_DESIGNACION_DS f&#xA;  where FECHA_EGRESO is not null and exists ( select 1 from [ODS_UCU].[dbo].[ODS_SAICO_FUNCIONA] where  concat('CI',[FunDocumNr])=f.DOCUMENTO_ID and [FunActEgr]='A');&#xA;&#xA;&#xA;  update F set FECHA_EGRESO=null &#xA;  from FT_DESIGNACION_DS f&#xA;  where FECHA_EGRESO is not null ;&#xA;&#xA;  update F set FECHA_FIN_DES=null  from FT_DESIGNACION_DS f&#xA;  where YEAR(FECHA_FIN_DES)&lt;1902;&#xA;&#xA;&#xA;   update f &#xA;   set fecha_egreso =  (select max(FunFecBaja) from ODS_UCU.dbo.ODS_SAICO_CARGOSFU  c, [ODS_UCU].[dbo].[ODS_SAICO_FUNCIONA] fun&#xA;&#x9;&#x9;&#x9;&#x9;where c.FunId=fun.funID and concat('CI',[FunDocumNr])= f.DOCUMENTO_ID )&#xA; from FT_DESIGNACION_DS f where     exists ( &#xA;   select * from [ODS_UCU].[dbo].[ODS_SAICO_FUNCIONA] where  concat('CI',[FunDocumNr])= f.DOCUMENTO_ID   and [FunActEgr]='E');&#xA;&#xA;&#xA;&#xA;   &#xA;&#x9;  update FT_DESIGNACION_DS set clave_ciclo_clase = case when len(clase_id)&gt;5 then concat(ciclo_id,clase_id)&#xA;&#x9; when  len(clase_id)=5 then concat(CICLO_ID,concat('0',clase_id))&#xA;&#x9; when  len(clase_id)=4 then concat(CICLO_ID,concat('00',clase_id)) &#xA;&#x9; when  len(clase_id)=3 then concat(CICLO_ID,concat('000',clase_id)) &#xA;&#x9; when  len(clase_id)=2 then concat(CICLO_ID,concat('0000',clase_id)) &#xA;&#x9; when  len(clase_id)=1 then concat(CICLO_ID,concat('00000',clase_id)) &#xA;&#x9; when  len(clase_id)=0 then concat(CICLO_ID,'000000')  end;&#xA;&#xA;&#x9;  update FT_DESIGNACION_DS  set descripcion_ciclo_clase=(select TOP 1 c.DESCRIP_CORTA from DT_Clase_Inst c where cast(c.CLAVE_CICLO_CLASE as varchar)=f.CLAVE_CICLO_CLASE) &#xA;  from FT_DESIGNACION_DS f;&#xA;&#xA; &#xA;&#xA;&#xA; " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="  &#xA;&#xA; update FT_DESIGNACION_DS set DOCUMENTO_ID='CI60633891' where DOCUMENTO_ID='CD6063389';&#xA;&#xA;update FT_DESIGNACION_DS set DOCUMENTO_ID='CI62477449' where DOCUMENTO_ID='DNI21024519';&#xA;&#xA;update FT_DESIGNACION_DS set DOCUMENTO_ID='CI37259551' where DOCUMENTO_ID='DNI37259550';&#xA; &#xA;update FT_DESIGNACION_DS set DOCUMENTO_ID='CI60532544' where DOCUMENTO_ID='PAS238713';&#xA;&#xA; &#xA;&#xA; update d set d.emplid= ( select top 1 emplid from DT_Docente d2 where d.DOCUMENTO_ID=d2.DOCUMENTO_ID)&#xA; from FT_DESIGNACION_DS d;&#xA;&#xA;  update d set d.emplid= ( select top 1 emplid from ODS_UCU.dbo.ODS_MAPEO_FUNCIONARIOS d2 where d.SAICO_ID=d2.NRO_FUN_SAICO)&#xA; from FT_DESIGNACION_DS d&#xA; where   emplid is null and SAICO_ID is not null;&#xA;&#xA; &#xA;&#xA;   update d set d.emplid= ( select top 1 d2.emplid from DT_Docente d2 where cast( dbo.getNumericValue(d.DOCUMENTO_ID) as bigint)=cast( dbo.getNumericValue(d2.NRO_DOCUMENTO) as bigint)&#xA; or  cast( dbo.getNumericValue(d.DOCUMENTO_ID) as bigint)/10=cast( dbo.getNumericValue(d2.NRO_DOCUMENTO) as bigint)&#xA;  or  cast( dbo.getNumericValue(d.DOCUMENTO_ID) as bigint)=cast( dbo.getNumericValue(d2.NRO_DOCUMENTO) as bigint)/10&#xA;  or  cast( dbo.getNumericValue(d.DOCUMENTO_ID) as bigint)/10=cast( dbo.getNumericValue(d2.NRO_DOCUMENTO) as bigint)/10&#xA;  )&#xA; from FT_DESIGNACION_DS d  where   d.emplid is null;&#xA;&#xA;&#xA;-- delete from FT_DESIGNACION_DS where TIPO_HORAS='GESTION' and FUENTE_DATOS='SAICO'&#xA; &#xA;  update FT_DESIGNACION_DS set año =case when cast( dbo.getNumericValue(ciclo_id) as int)&gt;0 then cast(dbo.getNumericValue(ciclo_id) as int)/100+2000  end&#xA;   &#xA; --  where ciclo_id not like '%CURS%' and ciclo_id not like '%PRUE%' and ciclo_id not like '%PLEN%'  and ciclo_id not like '%VIRT%'&#xA;  --  and ciclo_id not like '%TRIB%'&#xA;&#xA;&#xA;&#xA; update FT set FT.[UNIDAD_DESTINO_ID]= (select TOP 1 FIN_CC_CLAVE_UNOP from DT_CENTROS_COSTO CC where &#xA;  FIN_CC_CLAVE_UNIF=cast(FT.CC_DESTINO_ID as nvarchar))&#xA; FROM  FT_DESIGNACION_DS FT  where   FT.[UNIDAD_DESTINO_ID] is null;&#xA;&#xA;  update FT set FT.[UNIDAD_ORIGEN_ID]= (select TOP 1 FIN_CC_CLAVE_UNOP from DT_CENTROS_COSTO CC where &#xA;  FIN_CC_CLAVE_UNIF=cast(FT.CC_ORIGEN_ID as nvarchar))&#xA; FROM  FT_DESIGNACION_DS FT  where  [UNIDAD_ORIGEN_ID] is null;&#xA; &#xA;&#xA;  update FT_DESIGNACION_DS set FUENTE_DATOS='SAICO' where FUENTE_DATOS is null  or upper(FUENTE_DATOS) like '%SAICO%';&#xA;&#xA;   delete d from FT_DESIGNACION_DS d where d.FUENTE_DATOS='MAGIX' and exists(select 1 from FT_DESIGNACION_DS d2 where d2.DOCUMENTO_ID=d.DOCUMENTO_ID&#xA; and d2.CICLO_ID=d.CICLO_ID and d2.CLASE_ID=d.CLASE_ID and d2.FUENTE_DATOS='SAICO');&#xA; &#xA; &#xA;&#xA;&#xA;  update F set FECHA_EGRESO=null &#xA;  from FT_DESIGNACION_DS f&#xA;  where FECHA_EGRESO is not null and exists ( select 1 from [ODS_UCU].[dbo].[ODS_SAICO_FUNCIONA] where  concat('CI',[FunDocumNr])=f.DOCUMENTO_ID and [FunActEgr]='A');&#xA;&#xA;&#xA;  update F set FECHA_EGRESO=null &#xA;  from FT_DESIGNACION_DS f&#xA;  where FECHA_EGRESO is not null ;&#xA;&#xA;  update F set FECHA_FIN_DES=null  from FT_DESIGNACION_DS f&#xA;  where YEAR(FECHA_FIN_DES)&lt;1902;&#xA;&#xA;&#xA;   update f &#xA;   set fecha_egreso =  (select max(FunFecBaja) from ODS_UCU.dbo.ODS_SAICO_CARGOSFU  c, [ODS_UCU].[dbo].[ODS_SAICO_FUNCIONA] fun&#xA;&#x9;&#x9;&#x9;&#x9;where c.FunId=fun.funID and concat('CI',[FunDocumNr])= f.DOCUMENTO_ID )&#xA; from FT_DESIGNACION_DS f where     exists ( &#xA;   select * from [ODS_UCU].[dbo].[ODS_SAICO_FUNCIONA] where  concat('CI',[FunDocumNr])= f.DOCUMENTO_ID   and [FunActEgr]='E');&#xA;&#xA;&#xA;&#xA;   &#xA;&#x9;  update FT_DESIGNACION_DS set clave_ciclo_clase = case when len(clase_id)&gt;5 then concat(ciclo_id,clase_id)&#xA;&#x9; when  len(clase_id)=5 then concat(CICLO_ID,concat('0',clase_id))&#xA;&#x9; when  len(clase_id)=4 then concat(CICLO_ID,concat('00',clase_id)) &#xA;&#x9; when  len(clase_id)=3 then concat(CICLO_ID,concat('000',clase_id)) &#xA;&#x9; when  len(clase_id)=2 then concat(CICLO_ID,concat('0000',clase_id)) &#xA;&#x9; when  len(clase_id)=1 then concat(CICLO_ID,concat('00000',clase_id)) &#xA;&#x9; when  len(clase_id)=0 then concat(CICLO_ID,'000000')  end;&#xA;&#xA;&#x9;  update FT_DESIGNACION_DS  set descripcion_ciclo_clase=(select TOP 1 c.DESCRIP_CORTA from DT_Clase_Inst c where cast(c.CLAVE_CICLO_CLASE as varchar)=f.CLAVE_CICLO_CLASE) &#xA;  from FT_DESIGNACION_DS f;&#xA;&#xA; &#xA;&#xA;&#xA; " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\borrar FT DS"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
-      DTS:Disabled="True"
       DTS:DTSID="{D43012CC-7393-4753-B92F-85392683386F}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -153,6 +205,8 @@
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FADBA1DA-E4FC-45ED-AE47-9EBF3DC3117B}"
@@ -163,13 +217,14 @@
       DTS:refId="Package\Designaciones en MAGIX"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
-      DTS:Disabled="True"
       DTS:DTSID="{29A8B529-1D56-49C6-85C2-CF6777ABB789}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Designaciones en MAGIX"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <pipeline
           version="1">
@@ -772,8 +827,8 @@
       ,[CLASE_ID]
       ,concat(trim([TIPO_DOCUMENTO]),a.[NRO_DOCUMENTO]) DOCUMENTO_ID
       ,[FECHA_INICIO]
-      ,[FECHA_EGRESO]
-      ,[FECHA_CANCELACION]
+      ,case when YEAR([FECHA_EGRESO])&lt;=1902 then  CAST('2021-30-09' AS datetime) else  [FECHA_EGRESO] end [FECHA_EGRESO]
+      ,case when YEAR([FECHA_CANCELACION])&lt;=1902 then  CAST('2021-30-09' AS datetime) else  [FECHA_CANCELACION] end [FECHA_CANCELACION]
       ,[TIPO_HORAS]
       ,[PUESTO_ID]
       ,CONCAT('M',[CARGO_ID]) [CARGO_ID]
@@ -801,7 +856,7 @@
 (case when  YEAR(FECHA_EGRESO)&lt;=1900 then CAST('2021-01-10' AS datetime) else FECHA_EGRESO end),
 (case when  YEAR(FECHA_CANCELACION)&lt;=1900 then CAST('2021-01-10' AS datetime) else FECHA_CANCELACION end)) AS a(d)) f
 left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
-
+ 
  -- where  [TIPO_HORAS]  ='GESTION'</property>
                 <property
                   dataType="System.String"
@@ -1356,13 +1411,14 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
       DTS:refId="Package\Designaciones en SAICO PAD"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
-      DTS:Disabled="True"
       DTS:DTSID="{bd3b2d99-c888-4865-b52e-c57a24f5f363}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Designaciones en SAICO PAD"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <pipeline
           version="1">
@@ -1633,6 +1689,12 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                       cachedName="FEC_FIN_DESG"
                       externalMetadataColumnId="Package\Designaciones en SAICO PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       lineageId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG]" />
+                    <inputColumn
+                      refId="Package\Designaciones en SAICO PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[FEC_CANCEL]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="FEC_CANCEL"
+                      externalMetadataColumnId="Package\Designaciones en SAICO PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_CANCELACION]"
+                      lineageId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de origen de OLE DB].Columns[FEC_CANCEL]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1769,12 +1831,25 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                       name="año" />
                     <externalMetadataColumn
                       refId="Package\Designaciones en SAICO PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[emplid]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="emplid" />
                     <externalMetadataColumn
                       refId="Package\Designaciones en SAICO PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       dataType="dbTimeStamp"
                       name="FECHA_FIN_DES" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones en SAICO PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="clave_ciclo_clase" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones en SAICO PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="descripcion_ciclo_clase" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1830,6 +1905,7 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select ods.FEC_INICIO_DESG
 		, ods.FEC_FIN_DESG
+                                     , ods.FEC_FIN_DESG FEC_CANCEL
 		, CONCAT('S',ods.CARGO_ID) CARGO_ID
          , ods.TIPO_HORA 
 		 , concat(tipo_doc,documento_nro) DOCUMENTO_ID 
@@ -2059,6 +2135,15 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                       lineageId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de origen de OLE DB].Columns[SAICO_ID]"
                       name="SAICO_ID"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de origen de OLE DB].Columns[FEC_CANCEL]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de origen de OLE DB].ExternalColumns[FEC_CANCEL]"
+                      lineageId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de origen de OLE DB].Columns[FEC_CANCEL]"
+                      name="FEC_CANCEL"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2149,6 +2234,10 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                       refId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de origen de OLE DB].ExternalColumns[SAICO_ID]"
                       dataType="i4"
                       name="SAICO_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de origen de OLE DB].ExternalColumns[FEC_CANCEL]"
+                      dataType="dbTimeStamp"
+                      name="FEC_CANCEL" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2168,6 +2257,11 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                       lineageId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_CANCEL]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_CANCEL]"
+                      name="FEC_CANCEL" />
                     <outputColumn
                       refId="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS.Outputs[Salida de error de origen de OLE DB].Columns[DOCUMENTO_ID]"
                       codePage="1252"
@@ -2297,13 +2391,14 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
       DTS:refId="Package\Designaciones Saico AULA"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
-      DTS:Disabled="True"
       DTS:DTSID="{dde031f0-31bb-4c3f-8f26-aa550b4299fb}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Designaciones Saico AULA"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <pipeline
           version="1">
@@ -2593,6 +2688,12 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                       cachedName="FEC_FIN_DESG"
                       externalMetadataColumnId="Package\Designaciones Saico AULA\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       lineageId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG]" />
+                    <inputColumn
+                      refId="Package\Designaciones Saico AULA\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[FEC_FIN_DESG2]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="FEC_FIN_DESG2"
+                      externalMetadataColumnId="Package\Designaciones Saico AULA\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_CANCELACION]"
+                      lineageId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2729,12 +2830,25 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                       name="año" />
                     <externalMetadataColumn
                       refId="Package\Designaciones Saico AULA\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[emplid]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="emplid" />
                     <externalMetadataColumn
                       refId="Package\Designaciones Saico AULA\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       dataType="dbTimeStamp"
                       name="FECHA_FIN_DES" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico AULA\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="clave_ciclo_clase" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico AULA\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="descripcion_ciclo_clase" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2791,6 +2905,7 @@ left join ODS_UCU.dbo.ods_magix_doc d on d.nro_documento= a.[NRO_DOCUMENTO]
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (
 select  INICIO_DESI FEC_INICIO_DESG
 		,DATEADD(month, CANTIDAD_MESES-1, INICIO_DESI) FEC_FIN_DESG
+,DATEADD(month, CANTIDAD_MESES-1, INICIO_DESI) FEC_FIN_DESG2
 		, ds.CICLO_ID 
 	  , ds.CLASE_ID
 , CANTI_HORAS Cantidad_hs
@@ -2802,7 +2917,9 @@ select  INICIO_DESI FEC_INICIO_DESG
 
 		,ods.CC_SAICO CC_DESIG_ORIGEN
 		,liq.CC_SAICO CC_DESIG_LIQ
-		, ValorHoraLiq, ValorHoraCargo, [ValorHoraCargoLau],Año, Mes
+		, ValorHoraLiq, ValorHoraCargo, [ValorHoraCargoLau]
+		,year(DATEADD(month, number, INICIO_DESI))  Año
+		,month(DATEADD(month, number, INICIO_DESI))  Mes
 		, CANTI_HORAS/CANTIDAD_MESES Cantidad_hs_real
 		-- 
  	 from  [ODS_UCU].[dbo].[ODS_PS_DESIGNACIONES_DOCENTE_CLASE] ds
@@ -2827,7 +2944,7 @@ select  INICIO_DESI FEC_INICIO_DESG
 	 liq.CC_SAICO=ds.CC_ID and liq.saicoid=NRO_FUN_SAICO and liq.CARGO_ID=ds.CARGO_CORR_ID and liq.TIPO_HORA ='Docencia'  
 	and liq.CICLO_ID = ds.CICLO_ID and liq.CLASE_ID =ds.CLASE_ID
    where  ds.ES_PAD='N' and DATEADD(month, t2.number, INICIO_DESI) &gt;=CAST('2021-10-01' AS DATE)  --and  ( INICIO_DESI&gt;=CAST('2021-10-01' AS DATE))
-   and (DATEADD(month, t2.number, INICIO_DESI))&lt;=CURRENT_TIMESTAMP
+   and  CURRENT_TIMESTAMP  &lt;=  (DATEADD(month, t2.number, INICIO_DESI))
    --a nd YEAR( DATEADD(month, t2.number, INICIO_DESI))=2021
    -- and MONTH( DATEADD(month, t2.number, INICIO_DESI)) &gt;9
   -- and  DOCUMENTO_ID='CI18383791' --and   ds.CLASE_ID='1919' and ds.CICLO_ID='2100' --and liq.mes=11
@@ -3044,6 +3161,15 @@ where Año*100+Mes&gt;=202110</property>
                       lineageId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[saico_id]"
                       name="saico_id"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].ExternalColumns[FEC_FIN_DESG2]"
+                      lineageId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      name="FEC_FIN_DESG2"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3138,6 +3264,10 @@ where Año*100+Mes&gt;=202110</property>
                       refId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].ExternalColumns[saico_id]"
                       dataType="i4"
                       name="saico_id" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].ExternalColumns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      name="FEC_FIN_DESG2" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -3157,6 +3287,11 @@ where Año*100+Mes&gt;=202110</property>
                       lineageId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      name="FEC_FIN_DESG2" />
                     <outputColumn
                       refId="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_FIN_DESG]"
                       dataType="dbTimeStamp"
@@ -3295,13 +3430,14 @@ where Año*100+Mes&gt;=202110</property>
       DTS:refId="Package\Designaciones Saico AULA NO PS"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
-      DTS:Disabled="True"
       DTS:DTSID="{85efe2ab-02e5-4f67-8b3d-fd22fffcbe13}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Designaciones Saico AULA NO PS"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <pipeline
           version="1">
@@ -3552,6 +3688,12 @@ where Año*100+Mes&gt;=202110</property>
                       cachedName="FEC_FIN_DESG"
                       externalMetadataColumnId="Package\Designaciones Saico AULA NO PS\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       lineageId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG]" />
+                    <inputColumn
+                      refId="Package\Designaciones Saico AULA NO PS\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[FEC_FIN_DESG2]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="FEC_FIN_DESG2"
+                      externalMetadataColumnId="Package\Designaciones Saico AULA NO PS\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_CANCELACION]"
+                      lineageId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3688,12 +3830,25 @@ where Año*100+Mes&gt;=202110</property>
                       name="año" />
                     <externalMetadataColumn
                       refId="Package\Designaciones Saico AULA NO PS\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[emplid]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="emplid" />
                     <externalMetadataColumn
                       refId="Package\Designaciones Saico AULA NO PS\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       dataType="dbTimeStamp"
                       name="FECHA_FIN_DES" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico AULA NO PS\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="clave_ciclo_clase" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico AULA NO PS\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="descripcion_ciclo_clase" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3752,6 +3907,7 @@ where Año*100+Mes&gt;=202110</property>
 	  ,   DATEDIFF(MONTH,liq.FEC_INICIO_DESG,liq.fec_fin_desg) CANTIDAD_MESES  
 	  , liq.FEC_INICIO_DESG FEC_INICIO_DESG
 	  , liq.fec_fin_desg  FEC_FIN_DESG
+  , liq.fec_fin_desg  FEC_FIN_DESG2
 	 , concat('S',liq.Cargo_ID) CARGO_ID
 	  , 'DOCENCIA AULAS'   TIPO_HORA 
 	   , coalesce(DOCUMENTO_ID, (select concat(tipo_doc,documento_nro) from DW_UCU.dbo.DT_Funcionario where funid=[NRO_FUN_SAICO])) DOCUMENTO_ID 
@@ -4081,6 +4237,15 @@ where Año*100+Mes&gt;=202110</property>
                       lineageId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[cod_clasedpto]"
                       name="cod_clasedpto"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].ExternalColumns[FEC_FIN_DESG2]"
+                      lineageId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      name="FEC_FIN_DESG2"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4213,6 +4378,10 @@ where Año*100+Mes&gt;=202110</property>
                       refId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_clasedpto]"
                       dataType="i4"
                       name="cod_clasedpto" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].ExternalColumns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      name="FEC_FIN_DESG2" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -4251,6 +4420,11 @@ where Año*100+Mes&gt;=202110</property>
                       length="15"
                       lineageId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[CLASE_ID]"
                       name="CLASE_ID" />
+                    <outputColumn
+                      refId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      name="FEC_FIN_DESG2" />
                     <outputColumn
                       refId="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[ValorHoraLiq]"
                       dataType="numeric"
@@ -4412,13 +4586,14 @@ where Año*100+Mes&gt;=202110</property>
       DTS:refId="Package\Designaciones Saico Docente PAD"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
-      DTS:Disabled="True"
       DTS:DTSID="{0cd87924-1cb3-4b13-aef2-e0454aa8ea64}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Designaciones Saico Docente PAD"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <pipeline
           version="1">
@@ -4616,6 +4791,12 @@ where Año*100+Mes&gt;=202110</property>
                       cachedName="FEC_FIN_DESG"
                       externalMetadataColumnId="Package\Designaciones Saico Docente PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       lineageId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG]" />
+                    <inputColumn
+                      refId="Package\Designaciones Saico Docente PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[FEC_FIN_DESG2]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="FEC_FIN_DESG2"
+                      externalMetadataColumnId="Package\Designaciones Saico Docente PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_CANCELACION]"
+                      lineageId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4752,12 +4933,25 @@ where Año*100+Mes&gt;=202110</property>
                       name="año" />
                     <externalMetadataColumn
                       refId="Package\Designaciones Saico Docente PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[emplid]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="emplid" />
                     <externalMetadataColumn
                       refId="Package\Designaciones Saico Docente PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       dataType="dbTimeStamp"
                       name="FECHA_FIN_DES" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico Docente PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="clave_ciclo_clase" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico Docente PAD\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="descripcion_ciclo_clase" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -4815,7 +5009,8 @@ where Año*100+Mes&gt;=202110</property>
 SELECT    INICIO_DESI
 			, INICIO_DESI FEC_INICIO_DESG
 			, DATEADD(month, CANTIDAD_MESES, INICIO_DESI) FEC_FIN_DESG
-		 
+
+		                  , DATEADD(month, CANTIDAD_MESES, INICIO_DESI) FEC_FIN_DESG2
 			,ds.CICLO_ID CICLO_ID2
 			,ds.CLASE_ID
 			, concat('S',ds.CARGO_CORR_ID) CARGO_CORR_ID
@@ -4830,7 +5025,9 @@ SELECT    INICIO_DESI
 			,ds.CANTI_HORAS
 			, ValorHoraLiq
 			,[ValorHoraCargoLau]
-			, ValorHoraCargo, Año, Mes
+			, ValorHoraCargo
+		,year(DATEADD(month, number, INICIO_DESI))  Año
+		,month(DATEADD(month, number, INICIO_DESI))  Mes
 			, NRO_FUN_SAICO saico_id
 		 ,ds.CANTI_HORAS/CANTIDAD_MESES cant_hs_reales
 		, 'SAICO PS' FUENTE   
@@ -4853,7 +5050,7 @@ SELECT    INICIO_DESI
 
   where ds.ES_PAD='Y' and
  (ods_pad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or ods_pad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE))
-    and (DATEADD(month, number, INICIO_DESI))&lt;=CURRENT_TIMESTAMP
+--    and (DATEADD(month, number, INICIO_DESI))&lt;=CURRENT_TIMESTAMP
 --	and DOCUMENTO_ID like '%16994754%' --and ds.CLASE_ID=2101
 
 ) aux
@@ -5110,6 +5307,15 @@ where Año*100+Mes&gt;=202110</property>
                       name="saico_id"
                       precision="38"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].ExternalColumns[FEC_FIN_DESG2]"
+                      lineageId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      name="FEC_FIN_DESG2"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -5225,6 +5431,10 @@ where Año*100+Mes&gt;=202110</property>
                       dataType="numeric"
                       name="saico_id"
                       precision="38" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de origen de OLE DB].ExternalColumns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      name="FEC_FIN_DESG2" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -5249,6 +5459,11 @@ where Año*100+Mes&gt;=202110</property>
                       dataType="dbTimeStamp"
                       lineageId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_FIN_DESG]"
                       name="FEC_FIN_DESG" />
+                    <outputColumn
+                      refId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[FEC_FIN_DESG2]"
+                      name="FEC_FIN_DESG2" />
                     <outputColumn
                       refId="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_CORR_ID]"
                       codePage="1252"
@@ -5397,13 +5612,14 @@ where Año*100+Mes&gt;=202110</property>
       DTS:refId="Package\Designaciones Saico Gestion"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
-      DTS:Disabled="True"
       DTS:DTSID="{06DED695-79EB-4324-9567-D6038C4C6B7C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Designaciones Saico Gestion"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <pipeline
           version="1">
@@ -5795,12 +6011,25 @@ where Año*100+Mes&gt;=202110</property>
                       name="año" />
                     <externalMetadataColumn
                       refId="Package\Designaciones Saico Gestion\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[emplid]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="emplid" />
                     <externalMetadataColumn
                       refId="Package\Designaciones Saico Gestion\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[FECHA_FIN_DES]"
                       dataType="dbTimeStamp"
                       name="FECHA_FIN_DES" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico Gestion\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="clave_ciclo_clase" />
+                    <externalMetadataColumn
+                      refId="Package\Designaciones Saico Gestion\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion_ciclo_clase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="descripcion_ciclo_clase" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -5871,7 +6100,7 @@ left join [DW_UCU].[dbo].[DT_Funcionario]  on funid = ods.[SAICO_ID]
  
      select distinct ods.FEC_INICIO_DESG, ods.FEC_FIN_DESG, concat('S',ods.CARGO_ID) CARGO_ID,   'GESTION'   TIPO_HORA ,   concat(tipo_doc,documento_nro) DOCUMENTO_ID  ,
     (select odspad.CC_SAICO from  [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] odspad
-   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.Mes=12 and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
+   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.mes=12 and liq2.año=year(dateadd(year,-1,getdate())) and liq2.año=year(dateadd(year,-1,getdate())) and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
 	where  (odspad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or odspad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE)) and  odspad.[SAICO_ID]=ods.[SAICO_ID]) 
  CC_ORIGEN,
  ods.CC_SAICO  CC_DESTINO
@@ -5879,15 +6108,15 @@ left join [DW_UCU].[dbo].[DT_Funcionario]  on funid = ods.[SAICO_ID]
   ,ods.PORC_HORAS
 , ods.SAICO_ID
   , (select ValorHoraLiq  from  [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] odspad
-   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.Mes=12 and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
+   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.mes=12 and liq2.año=year(dateadd(year,-1,getdate())) and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
 	where  (odspad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or odspad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE)) and  odspad.[SAICO_ID]=ods.[SAICO_ID]) 
   ValorHoraLiq
   , (select ValorHoraCargo from  [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] odspad
-   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.Mes=12 and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
+   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.mes=12 and liq2.año=year(dateadd(year,-1,getdate())) and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
 	where  (odspad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or odspad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE)) and  odspad.[SAICO_ID]=ods.[SAICO_ID]) 
  ValorHoraCargo
  , (select [ValorHoraCargoLau] from  [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] odspad
-   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.Mes=12 and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
+   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.mes=12 and liq2.año=year(dateadd(year,-1,getdate())) and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
 	where  (odspad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or odspad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE)) and  odspad.[SAICO_ID]=ods.[SAICO_ID]) [ValorHoraCargoLau]
 	, ods.Cantidad_hs, liq.Año, liq.Mes
   ,liq.Cantidad_hs horasliq
@@ -5904,7 +6133,7 @@ left join [DW_UCU].[dbo].[DT_Funcionario]  on funid = ods.[SAICO_ID]
 UNION
  select distinct ods.FEC_INICIO_DESG, ods.FEC_FIN_DESG, concat('S',ods.CARGO_ID) CARGO_ID,   'GESTION'   TIPO_HORA ,    concat(tipo_doc,documento_nro) DOCUMENTO_ID  ,
     (select odspad.CC_SAICO from  [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] odspad
-   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.Mes=12 and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
+   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.mes=12 and liq2.año=year(dateadd(year,-1,getdate())) and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
 	where  (odspad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or odspad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE)) and  odspad.[SAICO_ID]=ods.[SAICO_ID]) 
  CC_ORIGEN,
  ods.CC_SAICO  CC_DESTINO
@@ -5912,15 +6141,15 @@ UNION
   ,ods.PORC_HORAS
 , ods.SAICO_ID
   , (select ValorHoraLiq  from  [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] odspad
-   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.Mes=12 and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
+   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.mes=12 and liq2.año=year(dateadd(year,-1,getdate())) and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
 	where  (odspad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or odspad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE)) and  odspad.[SAICO_ID]=ods.[SAICO_ID]) 
   ValorHoraLiq
   , (select ValorHoraCargo from  [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] odspad
-   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.Mes=12 and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
+   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.mes=12 and liq2.año=year(dateadd(year,-1,getdate())) and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
 	where  (odspad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or odspad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE)) and  odspad.[SAICO_ID]=ods.[SAICO_ID]) 
  ValorHoraCargo
  , (select [ValorHoraCargoLau] from  [ODS_UCU].[dbo].[ODS_SAICO_DESIGNACIONES_PAD] odspad
-   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.Mes=12 and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
+   inner join [ODS_UCU].[dbo].[ODS_SAICO_LIQUIDACIONES] liq2 on liq2.[SaicoID]= odspad.[SAICO_ID] and odspad.Tipo_HORA=liq2.Tipo_HORA and liq2.CARGO_ID=odspad.CARGO_ID and liq2.CC_SAICO=odspad.CC_SAICO and liq2.mes=12 and liq2.año=year(dateadd(year,-1,getdate())) and liq2.CARGO_CORR_ID=odspad.CARGO_CORR_ID
 	where  (odspad.FEC_FIN_DESG='1753-01-01 00:00:00.000' or odspad.FEC_FIN_DESG&gt;=CAST('2021-10-01' AS DATE)) and  odspad.[SAICO_ID]=ods.[SAICO_ID]) [ValorHoraCargoLau]
 	, ods.Cantidad_hs, liq.Año, liq.Mes
   ,liq.Cantidad_hs horasliq
@@ -6386,6 +6615,8 @@ UNION
       DTS:ObjectName="Docentes sin designaciones"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <pipeline
           version="1">
@@ -6454,7 +6685,7 @@ UNION
 							)
 						) AS a(d)
 					) FechaMin
-				WHERE desg.NRO_DOCUMENTO = F.NRO_DOCUMENTO
+				WHERE  cast(desg.NRO_DOCUMENTO as varchar) = cast(F.NRO_DOCUMENTO  as varchar)
 					AND a.FECHA_INICIO &gt;= desg.FECHA_INICIO
 					AND a.FECHA_INICIO &lt;= MinValue
 					AND a.FECHA_FIN &lt;= MinValue
@@ -6739,18 +6970,6 @@ WHERE NOT EXISTS (
                       lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[NRO_DOCUMENTO]"
                       name="NRO_DOCUMENTO" />
                     <outputColumn
-                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]"
-                      dataType="numeric"
-                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]"
-                      name="CLAVE_CICLO_CLASE"
-                      precision="10" />
-                    <outputColumn
-                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
-                      dataType="wstr"
-                      length="61"
-                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
-                      name="CLAVE_CICLO_CLASE_DOCENTE" />
-                    <outputColumn
                       refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[ciclo_id]"
                       dataType="wstr"
                       length="4"
@@ -6773,6 +6992,18 @@ WHERE NOT EXISTS (
                       length="14"
                       lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[TipoHora]"
                       name="TipoHora" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]"
+                      dataType="numeric"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE]"
+                      name="CLAVE_CICLO_CLASE"
+                      precision="10" />
+                    <outputColumn
+                      refId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      dataType="wstr"
+                      length="61"
+                      lineageId="Package\Docentes sin designaciones\Docentes sin designaciones.Outputs[Salida de error de origen de OLE DB].Columns[CLAVE_CICLO_CLASE_DOCENTE]"
+                      name="CLAVE_CICLO_CLASE_DOCENTE" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -7100,51 +7331,55 @@ WHERE NOT EXISTS (
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="132.8,42.4"
+          Size="133,42"
           Id="Package\Ajustes DW"
-          TopLeft="274.224669904048,242.847065113085" />
+          TopLeft="275.224669904048,245.847065113085" />
         <NodeLayout
-          Size="139.2,41.6"
+          Size="139,42"
           Id="Package\borrar FT DS"
           TopLeft="52.5213694478399,120.939397838599" />
         <NodeLayout
-          Size="196,41.6"
+          Size="196,42"
           Id="Package\Designaciones en MAGIX"
           TopLeft="51.9609291446633,51.5704113516189" />
         <NodeLayout
-          Size="216.8,41.6"
+          Size="217,42"
           Id="Package\Designaciones en SAICO PAD"
-          TopLeft="282.99390472972,53.7978589461438" />
+          TopLeft="286.630268366084,52.8887680370529" />
         <NodeLayout
-          Size="201.6,41.6"
+          Size="202,42"
           Id="Package\Designaciones Saico AULA"
-          TopLeft="840.136769821425,39.772188636844" />
+          TopLeft="843.470103154758,39.772188636844" />
         <NodeLayout
-          Size="236,41.6"
+          Size="236,42"
           Id="Package\Designaciones Saico AULA NO PS"
-          TopLeft="816.857145715733,149.294117679233" />
+          TopLeft="817.968256826844,152.627451012566" />
         <NodeLayout
-          Size="238.4,41.6"
+          Size="238,42"
           Id="Package\Designaciones Saico Docente PAD"
           TopLeft="463.290608963285,148.099458507265" />
         <NodeLayout
-          Size="212,41.6"
+          Size="212,42"
           Id="Package\Designaciones Saico Gestion"
           TopLeft="544.290615834195,45.8181831843268" />
+        <NodeLayout
+          Size="207,42"
+          Id="Package\Docentes sin designaciones"
+          TopLeft="469.142865098253,269.411768470256" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="247.960929144663,73.4841351488814">
+          TopLeft="247.960929144663,73.2295896943359">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="35.0329755850566,0"
+              EndConnector="38.6693392214204,0"
               Start="0,0"
-              End="27.5329755850566,0">
+              End="31.1693392214204,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="27.5329755850566,0" />
+                    End="31.1693392214204,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7177,18 +7412,18 @@ WHERE NOT EXISTS (
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 15]"
-          TopLeft="816.857145715733,169.496788093249">
+          TopLeft="817.968256826844,171.363454759916">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-115.166536752447,0"
+              EndConnector="-116.677647863559,0"
               Start="0,0"
-              End="-107.666536752447,0">
+              End="-109.177647863559,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-107.666536752447,0" />
+                    End="-109.177647863559,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7199,18 +7434,18 @@ WHERE NOT EXISTS (
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 2]"
-          TopLeft="499.79390472972,70.6080210652353">
+          TopLeft="503.630268366084,70.3534756106899">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="44.4967111044751,0"
+              EndConnector="40.6603474681114,0"
               Start="0,0"
-              End="36.9967111044751,0">
+              End="33.1603474681114,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="36.9967111044751,0" />
+                    End="33.1603474681114,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7221,18 +7456,18 @@ WHERE NOT EXISTS (
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
-          TopLeft="756.290615834195,63.5951859105854">
+          TopLeft="756.290615834195,63.7951859105854">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="83.8461539872301,0"
+              EndConnector="87.1794873205633,0"
               Start="0,0"
-              End="76.3461539872301,0">
+              End="79.6794873205633,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="76.3461539872301,0" />
+                    End="79.6794873205633,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7243,18 +7478,30 @@ WHERE NOT EXISTS (
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 4]"
-          TopLeft="937.896957768579,81.372188636844">
+          TopLeft="944.470103154758,81.772188636844">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,67.9219290423891"
+              EndConnector="-8.50184632791411,70.8552623757224"
               Start="0,0"
-              End="0,60.4219290423891">
+              End="-8.50184632791411,63.3552623757224">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.4219290423891" />
+                    End="0,31.4276311878612" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.4276311878612"
+                    Point2="0,35.4276311878612"
+                    Point3="-4,35.4276311878612" />
+                  <mssgle:LineSegment
+                    End="-4.50184632791411,35.4276311878612" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-4.50184632791411,35.4276311878612"
+                    Point2="-8.50184632791411,35.4276311878612"
+                    Point3="-8.50184632791411,39.4276311878612" />
+                  <mssgle:LineSegment
+                    End="-8.50184632791411,63.3552623757224" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7265,30 +7512,30 @@ WHERE NOT EXISTS (
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 5]"
-          TopLeft="582.490608963285,189.699458507265">
+          TopLeft="582.290608963285,190.099458507265">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-241.865939059237,53.1476066058197"
+              EndConnector="-240.565939059237,55.74760660582"
               Start="0,0"
-              End="-241.865939059237,45.6476066058197">
+              End="-240.565939059237,48.24760660582">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.5738033029098" />
+                    End="0,23.87380330291" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.5738033029098"
-                    Point2="0,26.5738033029098"
-                    Point3="-4,26.5738033029098" />
+                    Point1="0,23.87380330291"
+                    Point2="0,27.87380330291"
+                    Point3="-4,27.87380330291" />
                   <mssgle:LineSegment
-                    End="-237.865939059237,26.5738033029098" />
+                    End="-236.565939059237,27.87380330291" />
                   <mssgle:CubicBezierSegment
-                    Point1="-237.865939059237,26.5738033029098"
-                    Point2="-241.865939059237,26.5738033029098"
-                    Point3="-241.865939059237,30.5738033029098" />
+                    Point1="-236.565939059237,27.87380330291"
+                    Point2="-240.565939059237,27.87380330291"
+                    Point3="-240.565939059237,31.87380330291" />
                   <mssgle:LineSegment
-                    End="-241.865939059237,45.6476066058197" />
+                    End="-240.565939059237,48.24760660582" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7297,36 +7544,32 @@ WHERE NOT EXISTS (
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="207.2,41.6"
-          Id="Package\Docentes sin designaciones"
-          TopLeft="467.142865098253,268.411768470256" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 6]"
-          TopLeft="407.024669904048,264.047065113085">
+          TopLeft="408.224669904048,266.847065113085">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="60.1181951942045,25.1647033571713"
+              EndConnector="60.9181951942049,23.564703357171"
               Start="0,0"
-              End="52.6181951942045,25.1647033571713">
+              End="53.4181951942049,23.564703357171">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="26.0590975971022,0" />
+                    End="26.4590975971025,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="26.0590975971022,0"
-                    Point2="30.0590975971022,0"
-                    Point3="30.0590975971022,4" />
+                    Point1="26.4590975971025,0"
+                    Point2="30.4590975971025,0"
+                    Point3="30.4590975971025,4" />
                   <mssgle:LineSegment
-                    End="30.0590975971022,21.1647033571713" />
+                    End="30.4590975971025,19.564703357171" />
                   <mssgle:CubicBezierSegment
-                    Point1="30.0590975971022,21.1647033571713"
-                    Point2="30.0590975971022,25.1647033571713"
-                    Point3="34.0590975971022,25.1647033571713" />
+                    Point1="30.4590975971025,19.564703357171"
+                    Point2="30.4590975971025,23.564703357171"
+                    Point3="34.4590975971025,23.564703357171" />
                   <mssgle:LineSegment
-                    End="52.6181951942045,25.1647033571713" />
+                    End="53.4181951942049,23.564703357171" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7344,43 +7587,43 @@ WHERE NOT EXISTS (
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="136.8,41.6"
-          Id="Package\Designaciones en MAGIX\PAD Gestion"
-          TopLeft="28.6153855182717,40.4242437761572" />
-        <NodeLayout
-          Size="184,41.6"
+          Size="184,42"
           Id="Package\Designaciones en MAGIX\FT_DESIGNACION_DS"
           TopLeft="500.538479751384,125.909095349063" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Designaciones en MAGIX\Conversión de datos"
           TopLeft="212.38461759951,94.242427899708" />
+        <NodeLayout
+          Size="137,42"
+          Id="Package\Designaciones en MAGIX\PAD Gestion"
+          TopLeft="31.6153855182717,40.4242437761572" />
         <EdgeLayout
           Id="Package\Designaciones en MAGIX.Paths[Salida de origen de OLE DB]"
-          TopLeft="165.615385518272,61.4242437761572">
+          TopLeft="168.615385518272,61.4242437761572">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="46.7692320812383,53.8181841235508"
+              EndConnector="43.7692320812383,53.8181841235508"
               Start="0,0"
-              End="39.2692320812383,53.8181841235508">
+              End="36.2692320812383,53.8181841235508">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="19.3846160406191,0" />
+                    End="17.8846160406191,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="19.3846160406191,0"
-                    Point2="23.3846160406191,0"
-                    Point3="23.3846160406191,4" />
+                    Point1="17.8846160406191,0"
+                    Point2="21.8846160406191,0"
+                    Point3="21.8846160406191,4" />
                   <mssgle:LineSegment
-                    End="23.3846160406191,49.8181841235508" />
+                    End="21.8846160406191,49.8181841235508" />
                   <mssgle:CubicBezierSegment
-                    Point1="23.3846160406191,49.8181841235508"
-                    Point2="23.3846160406191,53.8181841235508"
-                    Point3="27.3846160406191,53.8181841235508" />
+                    Point1="21.8846160406191,49.8181841235508"
+                    Point2="21.8846160406191,53.8181841235508"
+                    Point3="25.8846160406191,53.8181841235508" />
                   <mssgle:LineSegment
-                    End="39.2692320812383,53.8181841235508" />
+                    End="36.2692320812383,53.8181841235508" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7427,14 +7670,6 @@ WHERE NOT EXISTS (
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Designaciones en MAGIX\PAD Gestion">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Designaciones en MAGIX\FT_DESIGNACION_DS">
     <Properties>
       <Property>
@@ -7447,49 +7682,57 @@ WHERE NOT EXISTS (
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Designaciones en MAGIX\PAD Gestion">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Designaciones en SAICO PAD">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="209.6,41.6"
+          Size="210,42"
           Id="Package\Designaciones en SAICO PAD\ODS_PS_DESIGNACION_DS"
-          TopLeft="43.7346153987231,39.416667449354" />
+          TopLeft="43.7346153987231,38.416667449354" />
         <NodeLayout
-          Size="168,41.6"
+          Size="168,42"
           Id="Package\Designaciones en SAICO PAD\Destino de OLE DB"
-          TopLeft="433.000000550197,150.666668858191" />
+          TopLeft="437.000000550197,150.666668858191" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Designaciones en SAICO PAD\Conversión de datos"
           TopLeft="82.2038436285842,154.962122122884" />
         <EdgeLayout
           Id="Package\Designaciones en SAICO PAD.Paths[Salida de origen de OLE DB]"
-          TopLeft="148.734615398723,81.416667449354">
+          TopLeft="148.734615398723,80.416667449354">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="20.4692282298611,73.54545467353"
+              EndConnector="20.4692282298611,74.54545467353"
               Start="0,0"
-              End="20.4692282298611,66.04545467353">
+              End="20.4692282298611,67.04545467353">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,32.772727336765" />
+                    End="0,33.272727336765" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,32.772727336765"
-                    Point2="0,36.772727336765"
-                    Point3="4,36.772727336765" />
+                    Point1="0,33.272727336765"
+                    Point2="0,37.272727336765"
+                    Point3="4,37.272727336765" />
                   <mssgle:LineSegment
-                    End="16.4692282298611,36.772727336765" />
+                    End="16.4692282298611,37.272727336765" />
                   <mssgle:CubicBezierSegment
-                    Point1="16.4692282298611,36.772727336765"
-                    Point2="20.4692282298611,36.772727336765"
-                    Point3="20.4692282298611,40.772727336765" />
+                    Point1="16.4692282298611,37.272727336765"
+                    Point2="20.4692282298611,37.272727336765"
+                    Point3="20.4692282298611,41.272727336765" />
                   <mssgle:LineSegment
-                    End="20.4692282298611,66.04545467353" />
+                    End="20.4692282298611,67.04545467353" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7500,18 +7743,18 @@ WHERE NOT EXISTS (
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Designaciones en SAICO PAD.Paths[Salida de conversión de datos]"
-          TopLeft="256.603843628584,173.614395490538">
+          TopLeft="256.203843628584,173.814395490537">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="176.396156921612,0"
+              EndConnector="180.796156921613,0"
               Start="0,0"
-              End="168.896156921612,0">
+              End="173.296156921613,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="168.896156921612,0" />
+                    End="173.296156921613,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7554,10 +7797,6 @@ WHERE NOT EXISTS (
           Id="Package\Designaciones Saico AULA\Conversión de datos"
           TopLeft="436,141" />
         <NodeLayout
-          Size="251,42"
-          Id="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS"
-          TopLeft="124.5,92.5" />
-        <NodeLayout
           Size="112,42"
           Id="Package\Designaciones Saico AULA\Auditar"
           TopLeft="206.64336422299,253.856757759143" />
@@ -7565,6 +7804,44 @@ WHERE NOT EXISTS (
           Size="168,42"
           Id="Package\Designaciones Saico AULA\Destino de OLE DB"
           TopLeft="602.5,241" />
+        <NodeLayout
+          Size="251.2,42"
+          Id="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS"
+          TopLeft="124.5,92.5" />
+        <EdgeLayout
+          Id="Package\Designaciones Saico AULA.Paths[Salida de conversión de datos]"
+          TopLeft="523.2,182.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="163.3,58.3999999999999"
+              Start="0,0"
+              End="163.3,50.8999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.1999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.1999999999999"
+                    Point2="0,29.1999999999999"
+                    Point3="4,29.1999999999999" />
+                  <mssgle:LineSegment
+                    End="159.3,29.1999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="159.3,29.1999999999999"
+                    Point2="163.3,29.1999999999999"
+                    Point3="163.3,33.1999999999999" />
+                  <mssgle:LineSegment
+                    End="163.3,50.8999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Designaciones Saico AULA.Paths[Salida de origen de OLE DB]"
           TopLeft="375.7,113.3">
@@ -7596,9 +7873,7 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7637,53 +7912,9 @@ WHERE NOT EXISTS (
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Designaciones Saico AULA.Paths[Salida de conversión de datos]"
-          TopLeft="523.2,182.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="163.3,58.3999999999999"
-              Start="0,0"
-              End="163.3,50.8999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.1999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.1999999999999"
-                    Point2="0,29.1999999999999"
-                    Point3="4,29.1999999999999" />
-                  <mssgle:LineSegment
-                    End="159.3,29.1999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="159.3,29.1999999999999"
-                    Point2="163.3,29.1999999999999"
-                    Point3="163.3,33.1999999999999" />
-                  <mssgle:LineSegment
-                    End="163.3,50.8999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Designaciones Saico AULA\Destino de OLE DB">
     <Properties>
@@ -7697,57 +7928,63 @@ WHERE NOT EXISTS (
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Designaciones Saico AULA NO PS">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="251,42"
-          Id="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS"
-          TopLeft="124.5,92.5" />
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="168,42"
           Id="Package\Designaciones Saico AULA NO PS\Destino de OLE DB"
           TopLeft="602.5,241" />
+        <NodeLayout
+          Size="251.2,42"
+          Id="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS"
+          TopLeft="128.5,95.5" />
         <NodeLayout
           Size="174,42"
           Id="Package\Designaciones Saico AULA NO PS\Conversión de datos"
           TopLeft="436,141" />
         <EdgeLayout
           Id="Package\Designaciones Saico AULA NO PS.Paths[Salida de origen de OLE DB]"
-          TopLeft="375.7,113.3">
+          TopLeft="379.5,116.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="60.3000000000001,48.5000000000001"
+              EndConnector="56.5,45.5"
               Start="0,0"
-              End="52.8000000000001,48.5000000000001">
+              End="49,45.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="26.15,0" />
+                    End="24.25,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="26.15,0"
-                    Point2="30.15,0"
-                    Point3="30.15,4" />
+                    Point1="24.25,0"
+                    Point2="28.25,0"
+                    Point3="28.25,4" />
                   <mssgle:LineSegment
-                    End="30.15,44.5000000000001" />
+                    End="28.25,41.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="30.15,44.5000000000001"
-                    Point2="30.15,48.5000000000001"
-                    Point3="34.15,48.5000000000001" />
+                    Point1="28.25,41.5"
+                    Point2="28.25,45.5"
+                    Point3="32.25,45.5" />
                   <mssgle:LineSegment
-                    End="52.8000000000001,48.5000000000001" />
+                    End="49,45.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7781,22 +8018,12 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Designaciones Saico AULA NO PS\Destino de OLE DB">
     <Properties>
@@ -7810,11 +8037,19 @@ WHERE NOT EXISTS (
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Designaciones Saico AULA NO PS\ODS SAICO DESIGNACIONES AULAS">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Designaciones Saico Docente PAD">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="251,42"
           Id="Package\Designaciones Saico Docente PAD\ODS SAICO DESIGNACIONES AULAS"
@@ -7822,41 +8057,39 @@ WHERE NOT EXISTS (
         <NodeLayout
           Size="168,42"
           Id="Package\Designaciones Saico Docente PAD\Destino de OLE DB"
-          TopLeft="602.5,221" />
+          TopLeft="602.5,223" />
         <EdgeLayout
           Id="Package\Designaciones Saico Docente PAD.Paths[Salida de origen de OLE DB]"
-          TopLeft="250.1,114.1">
+          TopLeft="250,114.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="436.4,106.9"
+              EndConnector="436.5,108.5"
               Start="0,0"
-              End="436.4,99.4">
+              End="436.5,101">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.45" />
+                    End="0,50.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,49.45"
-                    Point2="0,53.45"
-                    Point3="4,53.45" />
+                    Point1="0,50.25"
+                    Point2="0,54.25"
+                    Point3="4,54.25" />
                   <mssgle:LineSegment
-                    End="432.4,53.45" />
+                    End="432.5,54.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="432.4,53.45"
-                    Point2="436.4,53.45"
-                    Point3="436.4,57.45" />
+                    Point1="432.5,54.25"
+                    Point2="436.5,54.25"
+                    Point3="436.5,58.25" />
                   <mssgle:LineSegment
-                    End="436.4,99.4" />
+                    End="436.5,101" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7887,53 +8120,51 @@ WHERE NOT EXISTS (
     design-time-name="Package\Designaciones Saico Gestion">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="168,42"
           Id="Package\Designaciones Saico Gestion\Destino de OLE DB"
           TopLeft="565.5,175" />
         <NodeLayout
+          Size="264,42"
+          Id="Package\Designaciones Saico Gestion\ODS SAICO DESIGNACIONES GESTION"
+          TopLeft="126.5,72.5" />
+        <NodeLayout
           Size="174,42"
           Id="Package\Designaciones Saico Gestion\Conversión de datos"
           TopLeft="311.538472965625,167.818187880451" />
-        <NodeLayout
-          Size="264,42"
-          Id="Package\Designaciones Saico Gestion\ODS SAICO DESIGNACIONES GESTION"
-          TopLeft="124.5,72.5" />
         <EdgeLayout
           Id="Package\Designaciones Saico Gestion.Paths[Salida de origen de OLE DB]"
-          TopLeft="256.5,114.1">
+          TopLeft="258.5,114.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="142.238472965625,53.7181878804506"
+              EndConnector="140.038472965625,53.318187880451"
               Start="0,0"
-              End="142.238472965625,46.2181878804506">
+              End="140.038472965625,45.818187880451">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.8590939402253" />
+                    End="0,22.6590939402255" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.8590939402253"
-                    Point2="0,26.8590939402253"
-                    Point3="4,26.8590939402253" />
+                    Point1="0,22.6590939402255"
+                    Point2="0,26.6590939402255"
+                    Point3="4,26.6590939402255" />
                   <mssgle:LineSegment
-                    End="138.238472965625,26.8590939402253" />
+                    End="136.038472965625,26.6590939402255" />
                   <mssgle:CubicBezierSegment
-                    Point1="138.238472965625,26.8590939402253"
-                    Point2="142.238472965625,26.8590939402253"
-                    Point3="142.238472965625,30.8590939402253" />
+                    Point1="136.038472965625,26.6590939402255"
+                    Point2="140.038472965625,26.6590939402255"
+                    Point3="140.038472965625,30.6590939402255" />
                   <mssgle:LineSegment
-                    End="142.238472965625,46.2181878804506" />
+                    End="140.038472965625,45.818187880451" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7955,9 +8186,7 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7990,39 +8219,39 @@ WHERE NOT EXISTS (
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="207.2,41.6"
+          Size="208,42"
           Id="Package\Docentes sin designaciones\Docentes sin designaciones"
           TopLeft="60.7142857264499,60.7647058930776" />
         <NodeLayout
-          Size="208.8,41.6"
+          Size="209,42"
           Id="Package\Docentes sin designaciones\DT_DOCENTES_SIN_DESIG"
           TopLeft="486.428579712401,72.647059842377" />
         <EdgeLayout
           Id="Package\Docentes sin designaciones.Paths[Salida de origen de OLE DB]"
-          TopLeft="267.91428572645,81.5647058930776">
+          TopLeft="268.71428572645,81.7647058930776">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="218.514293985951,11.8823539492994"
+              EndConnector="217.714293985951,11.8823539492994"
               Start="0,0"
-              End="211.014293985951,11.8823539492994">
+              End="210.214293985951,11.8823539492994">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="105.257146992975,0" />
+                    End="104.857146992976,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="105.257146992975,0"
-                    Point2="109.257146992975,0"
-                    Point3="109.257146992975,4" />
+                    Point1="104.857146992976,0"
+                    Point2="108.857146992976,0"
+                    Point3="108.857146992976,4" />
                   <mssgle:LineSegment
-                    End="109.257146992975,7.88235394929936" />
+                    End="108.857146992976,7.8823539492994" />
                   <mssgle:CubicBezierSegment
-                    Point1="109.257146992975,7.88235394929936"
-                    Point2="109.257146992975,11.8823539492994"
-                    Point3="113.257146992975,11.8823539492994" />
+                    Point1="108.857146992976,7.8823539492994"
+                    Point2="108.857146992976,11.8823539492994"
+                    Point3="112.857146992976,11.8823539492994" />
                   <mssgle:LineSegment
-                    End="211.014293985951,11.8823539492994" />
+                    End="210.214293985951,11.8823539492994" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
