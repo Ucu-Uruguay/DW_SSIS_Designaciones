@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="531"
-  DTS:VersionGUID="{A6533519-E363-45BE-8E64-D4866FBE0B24}">
+  DTS:VersionBuild="532"
+  DTS:VersionGUID="{F0F60E50-D452-486B-B3E0-6DECB2F18CF8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.30;User ID=Saico_DW;Initial Catalog=UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="PjCfMbuPw4U="
-            IV="mGxfZT7yHKPBXmC54d5lKQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="66zAwJjE7Gs="
+            IV="6PYj7IOEMjiIDMX0/vtSSg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>mGxfZT7yHKPBXmC54d5lKbx42OalGl+stqC161LDpudsAYooKzZ3/HPksx28p5mmWiuaoLdVQg34Qh/5W5gB98plC+ASpwIcCeKv6cuuXRC/1nJuUv0Bk7tHSyjHeBGFG47QitvEtjQXcn628y94WUzJEeECtqGlDUzGYdgvAl8bUZEowY5CpAcV2iWYIrSv</CipherValue>
+              <CipherValue>6PYj7IOEMjiIDMX0/vtSSrpseOjX4pbgPc78YqgVZ4JUG2j8HyJV7hzS2jrwcXUCsjibjNg1CmT7iu99TZJyuY29nU31/EtzuN/2lcc45ZCbMYWoyBOyUlpU8lTOrYpfR/olp6CDmKp5dMHIBK5Sw+1k0TQBRBg3M52A4iw6jVdSEf5ajrKF/bWvYRPVQBqF</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -59,12 +59,12 @@
           DTS:ConnectionString="DATA SOURCE=HRPROD;USER ID=UCU_GP;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="q5B5OK58Wss="
-            IV="2D9MIzOUUoRJ1oKn0mTERw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="LkhfXnJmsV8="
+            IV="Mqab+0cLvBsft8qzf6JEnQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>2D9MIzOUUoRJ1oKn0mTER+TTpVHlb0dgqtwJDe2U35CFoP7CwhNIL/XqUDlU0tTnxJDbUrtYBU7sVINw4mOC30cQysStJcAcXvJQJN1A+MNWSgcIQwrEMqETdlwRvHItMFtUnVgb4jciTpQwosiKF9LpWZCRky3hekm0r0jMtiKwJih9eeNWB9PzEF+meR9y</CipherValue>
+              <CipherValue>Mqab+0cLvBsft8qzf6JEnTdpM7WANbC9gzFJ/xt8ACA82jrbJRmkV38CwccT4Oj8HV2YZB6FoiFq65rtJ0fgxrS15zzkIQyppq2Hp5A+kpBoyVqPFscrovu0UEpOf7pmWOBLcMO+nRTWzt5RgkVHRqnAW6IyXzUAYq1fhEWJMBuE/IlhGwdifbiaeXYf+lcx</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -120,12 +120,12 @@
           DTS:ConnectionString="Data Source=Saico;User ID=Saico_DW;Provider=SSISOLEDB.3;Location=10.245.0.30;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="5p806UWscyM="
-            IV="dyCnOhS3JPOqCdz2OXKBJQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="YBqyD6wOcY8="
+            IV="tAMul2R+9hlxl2kKwQSsGQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>dyCnOhS3JPOqCdz2OXKBJeYfTvgWxddM+t3gl5LFtuJTZ2WgqjO7XC2mDqlWpeleYAsFdwMpT88mbIzkv64T0opfCk5o92La+347ihaDlcOtDiXZcBeaU6/Gk76RH/y76D1Kflm2/NuYmfBUcSVUKq9z+h3+A7HjMeJGCG+pYTc6JOTjhjHbjeWAqsi7mPMZ</CipherValue>
+              <CipherValue>tAMul2R+9hlxl2kKwQSsGXRDRCdcV3iy+FzuV3Y30YxyHstcuoQfiq7Tauc7kqXp1DQlJUBXkvBK/snpgp8kxg/voq3tR5cOgGr5PxtMG18NNIy0pP4tgMZX/OdKda9zi+TjSdoCuj2/Bz2esL9O42lt7pA9L9yp/cAc/xBYBayZ5q81Eq0ua7WERMXPT87E</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2944,7 +2944,7 @@ select  INICIO_DESI FEC_INICIO_DESG
 	 liq.CC_SAICO=ds.CC_ID and liq.saicoid=NRO_FUN_SAICO and liq.CARGO_ID=ds.CARGO_CORR_ID and liq.TIPO_HORA ='Docencia'  
 	and liq.CICLO_ID = ds.CICLO_ID and liq.CLASE_ID =ds.CLASE_ID
    where  ds.ES_PAD='N' and DATEADD(month, t2.number, INICIO_DESI) &gt;=CAST('2021-10-01' AS DATE)  --and  ( INICIO_DESI&gt;=CAST('2021-10-01' AS DATE))
-   and  CURRENT_TIMESTAMP  &lt;=  (DATEADD(month, t2.number, INICIO_DESI))
+   --and  CURRENT_TIMESTAMP  &lt;=  (DATEADD(month, t2.number, INICIO_DESI))
    --a nd YEAR( DATEADD(month, t2.number, INICIO_DESI))=2021
    -- and MONTH( DATEADD(month, t2.number, INICIO_DESI)) &gt;9
   -- and  DOCUMENTO_ID='CI18383791' --and   ds.CLASE_ID='1919' and ds.CICLO_ID='2100' --and liq.mes=11
@@ -7805,7 +7805,7 @@ WHERE NOT EXISTS (
           Id="Package\Designaciones Saico AULA\Destino de OLE DB"
           TopLeft="602.5,241" />
         <NodeLayout
-          Size="251.2,42"
+          Size="251,42"
           Id="Package\Designaciones Saico AULA\ODS SAICO DESIGNACIONES AULAS"
           TopLeft="124.5,92.5" />
         <EdgeLayout
